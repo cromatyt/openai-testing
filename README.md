@@ -30,6 +30,16 @@ OR
 pip install -r requirements.txt
 ```
 
-3. Check documentation
+3. Create env.py file
+
+Content example :
+
+```txt
+OrganizationID = 'XXXXXXXXXXX'
+APIKeyName = 'XXXXXXXXXXX'
+APIKeySecret = 'XXXXXXXXXXX'
+```
+
+4. Check documentation
 
 `https://platform.openai.com/docs/api-reference/introduction`
