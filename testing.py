@@ -18,7 +18,7 @@ response = openai.ChatCompletion.create(
     messages=[
         {
             "role": "system",
-            "content": system_message
+            "content": "Tu es un expert " + system_message
         },
         {
             "role": "user",
